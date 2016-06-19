@@ -166,15 +166,11 @@ namespace BlueprintBoardDemo.Forms
             }
         }
 
-        private void radioErasePoint_CheckedChanged(object sender, EventArgs e)
-        {
+        private void radioErasePoint_CheckedChanged(object sender, EventArgs e) =>
             blueprintBoard.Canvas.Eraser.Mode = EraseMode.Point;
-        }
 
-        private void radioErasePath_CheckedChanged(object sender, EventArgs e)
-        {
+        private void radioErasePath_CheckedChanged(object sender, EventArgs e) => 
             blueprintBoard.Canvas.Eraser.Mode = EraseMode.Path;
-        }
 
         private void menuItemNew_Click(object sender, EventArgs e)
         {
@@ -229,30 +225,20 @@ namespace BlueprintBoardDemo.Forms
             }
         }
 
-        private void menuItemExit_Click(object sender, EventArgs e)
-        {
+        private void menuItemExit_Click(object sender, EventArgs e) => 
             Close();
-        }
 
-        private void menuItemUndo_Click(object sender, EventArgs e)
-        {
+        private void menuItemUndo_Click(object sender, EventArgs e) =>
             blueprintBoard.Canvas.Undo();
-        }
 
-        private void menuItemRedo_Click(object sender, EventArgs e)
-        {
+        private void menuItemRedo_Click(object sender, EventArgs e) => 
             blueprintBoard.Canvas.Redo();
-        }
 
-        private void menuItemViewGrid_CheckedChanged(object sender, EventArgs e)
-        {
+        private void menuItemViewGrid_CheckedChanged(object sender, EventArgs e) => 
             blueprintBoard.Canvas.ShowGrid = menuItemViewGrid.Checked;
-        }
 
-        private void menuItemViewVertices_CheckedChanged(object sender, EventArgs e)
-        {
+        private void menuItemViewVertices_CheckedChanged(object sender, EventArgs e) => 
             blueprintBoard.Canvas.ShowPathPoints = menuItemViewVertices.Checked;
-        }
 
         private void menuItemSharpSource_Click(object sender, EventArgs e)
         {
@@ -339,9 +325,7 @@ namespace BlueprintBoardDemo.Forms
             }
         }
 
-        private void menuItemAutoUnify_CheckedChanged(object sender, EventArgs e)
-        {
+        private void menuItemAutoUnify_CheckedChanged(object sender, EventArgs e) => 
             blueprintBoard.Canvas.AutoUnify = menuItemAutoUnify.Checked;
-        }
     }
 }
