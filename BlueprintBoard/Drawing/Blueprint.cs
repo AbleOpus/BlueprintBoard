@@ -53,6 +53,8 @@ namespace BlueprintBoard.Drawing
         /// Saves this blueprint to file.
         /// </summary>
         /// <param name="fileName">The path to save to.</param>
+        /// <exception cref="IOException"></exception>
+        /// <exception cref="UnauthorizedAccessException"></exception>
         public void Save(string fileName)
         {
             using (var stream = File.Open(fileName, FileMode.Create))
@@ -66,6 +68,8 @@ namespace BlueprintBoard.Drawing
         /// Loads a blueprint from file.
         /// </summary>
         /// <param name="fileName">The path of the file to load from.</param>
+        /// <exception cref="IOException"></exception>
+        /// <exception cref="FileNotFoundException"></exception>
         public static Blueprint Load(string fileName)
         {
             using (var stream = File.OpenRead(fileName))

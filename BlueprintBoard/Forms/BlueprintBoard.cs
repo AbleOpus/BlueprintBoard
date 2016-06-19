@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Drawing;
+using System.IO;
 using System.Text;
 using System.Windows.Forms;
 using BlueprintBoard.Drawing;
@@ -140,6 +141,8 @@ namespace BlueprintBoard.Forms
         /// Saves the current blueprint to file.
         /// </summary>
         /// <param name="fileName">The path of the file to save to.</param>
+        /// <exception cref="IOException"></exception>
+        /// <exception cref="UnauthorizedAccessException"></exception>
         public void SaveCurrentBluepint(string fileName)
         {
             Blueprint blueprint = Canvas.CreateBlueprint();
@@ -161,6 +164,8 @@ namespace BlueprintBoard.Forms
         /// Loads a blueprint into the canvas from file
         /// </summary>
         /// <param name="fileName">The path to the file</param>
+        /// <exception cref="IOException"></exception>
+        /// <exception cref="FileNotFoundException"></exception>
         public void LoadBlueprint(string fileName)
         {
             Blueprint blueprint = Blueprint.Load(fileName);
