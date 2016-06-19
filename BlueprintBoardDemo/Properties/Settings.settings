@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BlueprintBoardDemo.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SnapOptions" Type="BlueprintBoard.SnapOptions" Scope="User">
+      <Value Profile="(Default)">None</Value>
+    </Setting>
+    <Setting Name="ShowGrid" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DrawnStroke" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="EraserShape" Type="BlueprintBoard.Shape" Scope="User">
+      <Value Profile="(Default)">Ellipse</Value>
+    </Setting>
+    <Setting Name="SnapDistance" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">15</Value>
+    </Setting>
+    <Setting Name="GridDimensions" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="EraserRadius" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="LineDetail" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="AutoUnify" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DrawPathPoints" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="EditMode" Type="BlueprintBoard.EditMode" Scope="User">
+      <Value Profile="(Default)">Point</Value>
+    </Setting>
+    <Setting Name="DashStyle" Type="System.Drawing.Drawing2D.DashStyle" Scope="User">
+      <Value Profile="(Default)">Solid</Value>
+    </Setting>
+    <Setting Name="CreateMode" Type="BlueprintBoard.CreateMode" Scope="User">
+      <Value Profile="(Default)">FreeForm</Value>
+    </Setting>
+    <Setting Name="EraseMode" Type="BlueprintBoard.EraseMode" Scope="User">
+      <Value Profile="(Default)">Point</Value>
+    </Setting>
+    <Setting Name="ColorDebugPaths" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CanvasSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">500, 500</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

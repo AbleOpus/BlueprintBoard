@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueprintBoard", "BlueprintBoard\BlueprintBoard.csproj", "{CC4B6856-BBCC-4900-8B98-3C41F923C550}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueprintBoardDemo", "BlueprintBoardDemo\BlueprintBoardDemo.csproj", "{5B58FED8-3D22-484F-8F8D-A5CC97153668}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC4B6856-BBCC-4900-8B98-3C41F923C550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4B6856-BBCC-4900-8B98-3C41F923C550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4B6856-BBCC-4900-8B98-3C41F923C550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4B6856-BBCC-4900-8B98-3C41F923C550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B58FED8-3D22-484F-8F8D-A5CC97153668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B58FED8-3D22-484F-8F8D-A5CC97153668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B58FED8-3D22-484F-8F8D-A5CC97153668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B58FED8-3D22-484F-8F8D-A5CC97153668}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
